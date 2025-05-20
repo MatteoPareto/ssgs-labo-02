@@ -52,3 +52,15 @@ Questo progetto utilizza GitHub Actions per eseguire automaticamente i test e ge
 - I test vengono eseguiti automaticamente.
 - Il report HTML della code coverage viene caricato come artefatto del workflow e può essere scaricato dalla sezione "Actions" di GitHub, all'interno dei dettagli del workflow.
 
+## Struttura del progetto
+
+- `src/` — Contiene i file sorgente principali del progetto (`stringUtils.js`).
+- `test/` — Contiene i test unitari (`index.test.js`).
+- `coverage/` — Cartella generata automaticamente da Jest con i report di code coverage.
+- `index.js` — Entry point dell'applicazione CLI.
+- `package.json` — Configurazione del progetto e delle dipendenze.
+- `.gitignore` — File per escludere cartelle/file dal versionamento.
+- `README.md` — Documentazione del progetto.
+
+---
+

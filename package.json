@@ -5,9 +5,15 @@
   "main": "index.js",
   "scripts": {
     "start": "node index.js",
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "jest",
+    "coverage": "jest --coverage"
   },
-  "keywords": ["string", "cli", "utility", "manipulation"],
+  "keywords": [
+    "string",
+    "cli",
+    "utility",
+    "manipulation"
+  ],
   "author": "Matteo Pareto",
   "license": "ISC",
   "repository": {
@@ -17,5 +23,13 @@
   "homepage": "https://github.com/MatteoPareto/ssgs-labo-02#README.md",
   "engines": {
     "node": ">=20.0.0"
+  },
+  "devDependencies": {
+    "jest": "^29.7.0"
+  },
+  "jest": {
+    "collectCoverage": true,
+    "coverageDirectory": "coverage",
+    "testEnvironment": "node"
   }
 }

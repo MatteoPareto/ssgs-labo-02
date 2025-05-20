@@ -46,10 +46,16 @@ Buona analisi e buon lavoro!
    npm start
    ```
 
-4. (Opzionale) Esegui i test:
+4. Esegui i test unitari:
    ```bash
    npm test
    ```
+
+5. Genera il report di code coverage:
+   ```bash
+   npm run coverage
+   ```
+   Il report HTML sarà disponibile nella cartella `coverage/lcov-report/index.html`.
 
 ---
 

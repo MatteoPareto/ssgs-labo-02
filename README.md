@@ -1,6 +1,13 @@
 # Labo-String: CLI per Utilità su Stringhe
 
+# Descrizione 
+
 Questo progetto fornisce una base per una semplice Command-Line Interface (CLI) Node.js che offre diverse utilità per la manipolazione di stringhe.
+
+# Prerequisiti
+
+- Node.js versione 20
+- npm (Node Package Manager)
 
 ## Nota Importante per lo Studente - Setup Iniziale del Progetto
 
@@ -23,7 +30,26 @@ Buona analisi e buon lavoro!
 
 ## Installazione e Avvio
 
-*(Questa sezione dovrà essere completata dallo studente come parte dell'Esercizio 1, includendo i comandi per installare le dipendenze ed eseguire l'applicazione e i test).*
+1. Clona la repository:
+   ```bash
+   git clone https://github.com/MatteoPareto/ssgs-labo-02.git
+   cd ssgs-labo-02
+   ```
+
+2. Installa le dipendenze:
+   ```bash
+   npm install
+   ```
+
+3. Avvia l'applicazione:
+   ```bash
+   npm start
+   ```
+
+4. (Opzionale) Esegui i test:
+   ```bash
+   npm test
+   ```
 
 ---
 

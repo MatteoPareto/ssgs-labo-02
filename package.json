@@ -1,12 +1,21 @@
 {
   "name": "labo-string",
   "version": "1.0.0",
-  "description": "",
-  "main": "app.js",
+  "description": "Command-Line Interface (CLI) Node.js che offre diverse utilità per la manipolazione di stringhe.",
+  "main": "index.js",
   "scripts": {
+    "start": "node index.js",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
-  "keywords": [],
-  "author": "",
-  "license": "ISC"
+  "keywords": ["string", "cli", "utility", "manipulation"],
+  "author": "Matteo Pareto",
+  "license": "ISC",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/MatteoPareto/ssgs-labo-02.git"
+  },
+  "homepage": "https://github.com/MatteoPareto/ssgs-labo-02#README.md",
+  "engines": {
+    "node": ">=20.0.0"
+  }
 }
